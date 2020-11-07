@@ -2,12 +2,12 @@ package com.kh.practice.member;
 
 public class MemberController {
 
-	// 필드
+	// Fields
 	private Member[] m = new Member[SIZE];	
 	public final static int SIZE = 10;
 
-	// 생성자
-	// 메소드
+	// Constructors
+	// Methods
 	public int existMemberNum() {
 		int sum = 0;
 		for(int i=0; i<SIZE; i++) {

@@ -2,7 +2,7 @@ package com.kh.practice.member;
 
 public class Member {
 	
-	// 필드
+	// Fields
 	private String id;
 	private String name;
 	private String password;
@@ -10,7 +10,7 @@ public class Member {
 	private char gender;
 	private int age;
 	
-	// 생성자
+	// Constructors
 	public Member() {}
 	public Member(String id, String name, String password, String email, char gender, int age) {
 		this.id = id;
@@ -20,7 +20,7 @@ public class Member {
 		this.gender = gender;
 		this.age = age;
 	}
-	// 메소드
+	// Methods
 	public String getId() {
 		return id;
 	}

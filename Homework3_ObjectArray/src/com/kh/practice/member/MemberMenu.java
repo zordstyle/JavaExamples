@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class MemberMenu {
 
-	// 객체
+	// Fields
 	Scanner sc = new Scanner(System.in);
 	MemberController mc = new MemberController();
 
-	// 생성자
-	// 메소드
+	// Constructors
+	// Methods
 	public void mainMenu() {
 		while(true) {			
 			System.out.println("최대 등록 가능한 회원수는 "+mc.SIZE+"명 입니다.");
